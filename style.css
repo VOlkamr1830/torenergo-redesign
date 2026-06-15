@@ -241,3 +241,110 @@ footer{
   .story-grid,.contact-layout{grid-template-columns:1fr}
   .hero h1{font-size:2.5rem}
 }
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px){
+
+    .container{
+        width:95%;
+    }
+
+    nav{
+        flex-direction:column;
+        height:auto;
+        padding:15px 0;
+        gap:15px;
+    }
+
+    .logo img{
+        height:55px;
+    }
+
+    .menu{
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:15px;
+    }
+
+    .menu a{
+        font-size:16px;
+    }
+
+    .theme-btn{
+        width:42px;
+        height:42px;
+    }
+
+    .hero{
+        padding:40px 15px;
+        min-height:75vh;
+    }
+
+    .hero h1{
+        font-size:2rem;
+        line-height:1.2;
+    }
+
+    .hero p{
+        font-size:1rem;
+    }
+
+    .hero-buttons{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .btn{
+        width:100%;
+        max-width:300px;
+        text-align:center;
+    }
+
+    .page-header{
+        padding:60px 0;
+    }
+
+    .page-header h1{
+        font-size:2rem;
+    }
+
+    .section-title{
+        font-size:1.8rem;
+    }
+
+    .story-grid,
+    .contact-layout{
+        grid-template-columns:1fr;
+    }
+
+    .stats-grid,
+    .advantages-grid,
+    .products-grid,
+    .contact-grid{
+        grid-template-columns:1fr;
+    }
+
+    .product-image{
+        height:220px;
+    }
+
+    .card,
+    .advantage-card,
+    .product-card,
+    .contact-card{
+        width:100%;
+    }
+
+    .contact-form input,
+    .contact-form textarea{
+        width:100%;
+    }
+
+    .map-placeholder{
+        height:250px;
+        font-size:1.5rem;
+    }
+
+}
